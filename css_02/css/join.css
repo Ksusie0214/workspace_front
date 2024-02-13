@@ -82,6 +82,9 @@ input[type="radio"], input[type="checkbox"]{
     height: 80px;
 }
 
+#txt-label{
+    float: left;
+}
 
 .contents .btn-area{
     padding: 10px 0 10px 0;
