@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body, div, ul, li, dl, dt, ol, 
+h1, h2, h3, h4, h5, h6, input, 
+fieldset, legend, p, select, 
+table, th, td, tr, textarea, 
+button, form {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px; 
+ }
+
+ /* clearfix */
+ .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+ .clearfix:after {clear: both;}
+ 
+ ol{
+    padding: 5px 0 5px 0;
+ }
+
+ ol,ul{
+    list-style-type: none;
+ }
+
+ ol>li{
+    float: left;
+ }
+ ol>li::after{
+    content: ">";
+ }
+ ol>li:last-child{
+    content: "";
+ }
+
+ body{
+    background-color: #808080;
+    font-size: 12px;
+    font-family: "맑은 고딕";
+ }
+
+.contents{
+    width: 600px;
+    background-color: #fff;
+}
+.contents h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contents .form-group{
+    border-bottom: 1px solid #000000;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+}
+
+#address-detail{
+    width: 400px;
+    margin: 10px 0 0 122px;
+}
+
+.contents .form-group .form-title{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    
+    font-size: 12px;
+}
+input{
+    font-family: "맑은 고딕";
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    font-family: "맑은 고딕";
+    font-size: 15px;
+}
+
+.contents .form-group #txt-contents {
+    font-family: "맑은 고딕";
+    font-size: 15px;
+    width: 400px;
+    height: 80px;
+}
+
+
+.contents .btn-area{
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.contents .btn-area button{
+    width: 120px;
+}

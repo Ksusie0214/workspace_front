@@ -8,6 +8,18 @@ button, form {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px; 
  }
+ 
+ /* clearfix */
+ .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+ .clearfix:after {clear: both;}
+
+ol{
+    padding: 5px 0 5px 0;
+}
+
+ ol, ul {
+    list-style-type: none;
+ }
 
  body{
     background-color: #808080;
@@ -23,6 +35,19 @@ button, form {
     font-size: 18px;
     font-weight: bold;
  }
+
+ /*위치*/
+ol>li{
+    float: left;
+}
+
+ ol>li::after{
+    content: ">";
+ }
+ ol>li:last-child::after{
+    content: "";
+ }
+
 /*폼그룹*/
 .contents .form-group{
     margin-bottom: 10px;
