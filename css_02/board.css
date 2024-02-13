@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body, div, ul, li, dl, dt, ol, 
+h1, h2, h3, h4, h5, h6, input, 
+fieldset, legend, p, select, 
+table, th, td, tr, textarea, 
+button, form {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px; 
+ }
+
+ body{
+    background-color: #808080;
+    font-size: 12px;
+    font-family: "맑은 고딕";
+ }
+ .contents{
+    width: 700px;
+    background: #ffffff;
+ }
+/*타이틀*/
+.contents h3{
+    font-size: 18px;
+    font-weight: bold;
+ }
+/*폼그룹*/
+.contents .form-group{
+    margin-bottom: 10px;
+ }
+ /*폼텍스트*/
+.contents .form-group .form-text{
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+ }
+
+ /*게시판 선택*/
+ .contents .form-group #select-board{
+    width: 200px;
+ }
+
+ /*제목*/
+ .contents .form-group #txt-title{
+    width: 600px;
+ }
+
+ /*비밀번호*/
+ .contents .form-group #txt-pw{
+    width: 196px;
+ }
+
+/* 공개범위 - 폼 라디오 버튼 */
+ .contents .form-group input[type="radio"]{
+    margin-right: 20px;
+ }
+ /* 공개범위 - 폼 체크박스 */
+ .contents .form-group input[type="checkbox"]{
+    margin-right: 20px;
+ }
+
+/* 내용 */
+.contents .form-group #txt-contents{
+    width: 686px;
+    height: 80px;
+}
+
+/*첨부파일*/
+
+/*버튼영역*/
+.contents .btn-area{
+    padding: 20px 0 20px 0;
+    border-top: 1px solid #000000;
+    text-align: center;
+}
+
+.contents .btn-area button{
+    
+    width: 60px;
+    height: 30px;
+}
