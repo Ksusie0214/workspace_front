@@ -4,35 +4,127 @@
 <head>
     <meta charset="UTF-8">
     <title>mysite</title>
-    <style>
-        div{
-            border: 1px solid #000000;
-        }
-        #subMenu{
-            float: left;
-        }
-        #main{
-            float: left;
-        }
-        /* clearfix */
-        .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
-        .clearfix:after {clear: both;}
+    <link rel="stylesheet" href="../../../assets/css/mysite.css">
+    <link rel="stylesheet" href="../../../assets/css/board.css">
 
-    </style>
 </head>
 
 <body>
-    <div>header</div>
+    <div id="wrap">
+        <div id="header" class="clearfix">
+            <h1>MySite</h1>
+            <ul class="clearfix">
+                <li><a href="">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+            </ul>
+        </div>
 
-    <div>nav - gnb</div>
+        <div id="nav" class="clearfix">
+            <ul>
+                <li><a href="">입사지원서</a> </li>
+                <li><a href="">게시판</a> </li>
+                <li><a href="">갤러리</a> </li>
+                <li><a href="">방명록</a> </li>
+            </ul>
+        </div>
+        <div id="contents2" class="clearfix">
+            <div id="aSide">
+                <h2>게시판</h2>
+                <ul>
+                    <li><a href="">일반게시판</a></li>
+                    <li><a href="">댓글게시판</a></li>
+                </ul>
+            </div>
+            <div id="board">
+                <div class="board-menu">게시판</div>
+                <div class="search">
+                    <input class="search-menu" type="text">
+                    <button>검색</button>
+                </div>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>번호</th>
+                                <th>제목</th>
+                                <th>글쓴이</th>
+                                <th>조회수</th>
+                                <th>작성일</th>
+                                <th>관리</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>123</td>
+                                <td class="txt-left">게시한 게시글입니다.</td>
+                                <td>정우성</td>
+                                <td>1232</td>
+                                <td>2020-12-30</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td>123</td>
+                                <td class="txt-left">게시한 게시글입니다.</td>
+                                <td>정우성</td>
+                                <td>1232</td>
+                                <td>2020-12-30</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td>123</td>
+                                <td class="txt-left">게시한 게시글입니다.</td>
+                                <td>정우성</td>
+                                <td>1232</td>
+                                <td>2020-12-30</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td>123</td>
+                                <td class="txt-left">게시한 게시글입니다.</td>
+                                <td>정우성</td>
+                                <td>1232</td>
+                                <td>2020-12-30</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td>123</td>
+                                <td class="txt-left">게시한 게시글입니다.</td>
+                                <td>정우성</td>
+                                <td>1232</td>
+                                <td>2020-12-30</td>
+                                <td>[삭제]</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-    <div class="clearfix">
-        <div id="subMenu">sub menu</div>
-        <div id="main">게시판리스트</div>
-    </div>  
+                    <ol id="search-bar">
+                        <li><a href="">◀</a></li>
+                        <li><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                        <li><a href="">6</a></li>
+                        <li><a href="">7</a></li>
+                        <li><a href="">8</a></li>
+                        <li><a href="">9</a></li>
+                        <li><a href="">10</a></li>
+                        <li><a href="">▶</a></li>
+                    </ol>
+
+                    <button class="write">글쓰기</button>
+
+                </div>
+            </div>
+        </div>
     
-    <div>footer</div>
-
+        <div id="footer">
+            <p>
+                Copyright (c)2024 김수빈 All rights reserved
+            </p>
+        </div>
+    </div>
+   
 </body>
 
 </html>

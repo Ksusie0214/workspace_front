@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*공통*/
+
+/* 여백초기화 */
+body, div, ul, li, dl, dt, ol, 
+h1, h2, h3, h4, h5, h6, input, 
+fieldset, legend, p, select, 
+table, th, td, tr, textarea, 
+button, form {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px; 
+ }
+
+body{
+    font-family: "맑은 고딕", 돋음, 굴림;
+    font-size: 12px;
+}
+
+a:link{text-decoration: none; color: #000000;}
+a:visited{text-decoration: none; color: #000000;}
+a:hover{text-decoration: none; color: #79b30b;}
+a:active{text-decoration: none; color: #000000;}
+
+/* clearfix */
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+ul, ol{
+    list-style-type: none;
+}
+/*레이아웃*/
+
+/*각각의 내용*/
+#contents2 #board .board-menu{
+    width: 790px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+    border-bottom: 2px solid #d9d9d9;
+    margin-bottom: 10px;
+}
+
+#contents2 #board .search{
+    float: right;
+    margin: 0 10px 10px 0;
+}
+
+#contents2 #board .search .search-menu{
+    width: 120px;
+    height: 25px;
+}
+
+#contents2 button{
+    background-color: #d9d9d9;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e9e9e9;
+}
+
+#contents2 #board table{
+    width: 790px;
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+    border-collapse: collapse;
+}
+
+table>thead>tr{
+    background-color: #d9d9d9;
+}
+
+table>thead>tr>th{
+    font-weight: bold;
+}
+
+table>tbody>tr>td, table>thead>tr>th{
+    border-top: 2px solid #d9d9d9;
+    text-align: center;
+    padding: 8px 0 8px 0;
+}
+.txt-left{
+    text-align: left;
+}
+
+#contents2 #search-bar{
+}
+ol{
+    list-style-type: none;
+    margin-left: 190px;
+}
+ol >li{
+    padding: 10px;
+    float: left;
+}
+
+#contents2 .write {
+    float: right;
+    margin: 10px;
+}
