@@ -98,44 +98,46 @@ ol >li{
 }
 
 /* read.html */
-#board .sub-all{
-    float: left;
-    width: 800px;
+#contents2 #board .read-info{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #d9d9d9;
 }
 
-#board .sub-menu{
-    width: 50px;
-
-}
-
-#board .sub-menu label{
+#contents2 #board .read-info .read-group{
     display: inline-block;
-    padding-top: 10px;
-    margin-right: 10px;
+    width: 80px;
     text-align: left;
-
+    margin: 5px 20px 5px 10px 
 }
-#board .sub-detail{
-    width: 600px;
+
+#contents2 #board .read-info .read-text{
+    display: inline-block;
+    width: 630px;
+    text-align: left;
+    margin: 5px 10px 5px 10px;
+    font-weight: bold;
+}
+
+#contents2 #board .read-read{
+    border-bottom: 2px solid #d9d9d9;
+}
+
+#contents2 #board .read-paragraph{
+    margin-left: 10px;
+    padding-bottom: 20px;
+    
+}
+#contents2 #board .read-btn{
+    margin-top: 10px;
     float: right;
 }
 
-
-#board .sub-detail label{
-    display: block;
-    padding-top: 10px;
-    margin-right: 10px;
-    text-align: left;
-    
-    
-
+#contents2 #board .read-btn button{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #a6a6a6;
 }
-
-#board .sub-paragraph p{
-
-    float: left;
-}
-
 
 /* write.html */
 #contents2 #board .form-text{
@@ -171,3 +173,28 @@ ol >li{
     background-color: #e5e5e5;
     text-align: center;
 }
+
+/* edit.html */
+
+#contents2 #board .edit-info .edit-text{
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+    margin: 5px 20px 5px 10px 
+}
+
+#contents2 #board .edit-info .edit-detail{
+    display: inline-block;
+    width: 630px;
+    text-align: left;
+    margin: 5px 10px 5px 10px;
+    font-weight: bold;
+}
+
+#contents2 #board .edit-info #sub-title2{
+    padding: 2px 0 2px 0;
+    width: 680px;
+    margin-bottom: 10px;
+    border: 2px solid #a5a5a5;
+    border-radius: 5px;
+ }
