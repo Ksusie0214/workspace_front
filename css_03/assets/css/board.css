@@ -39,6 +39,7 @@ ul, ol{
     line-height: 60px;
     border-bottom: 2px solid #d9d9d9;
     margin-bottom: 10px;
+    background-color: #fff;
 }
 
 #contents2 #board .search{
@@ -51,7 +52,7 @@ ul, ol{
     height: 25px;
 }
 
-#contents2 button{
+#contents2 #board button{
     background-color: #d9d9d9;
     padding: 5px;
     border-radius: 5px;
@@ -82,8 +83,6 @@ table>tbody>tr>td, table>thead>tr>th{
     text-align: left;
 }
 
-#contents2 #search-bar{
-}
 ol{
     list-style-type: none;
     margin-left: 190px;
@@ -96,4 +95,79 @@ ol >li{
 #contents2 .write {
     float: right;
     margin: 10px;
+}
+
+/* read.html */
+#board .sub-all{
+    float: left;
+    width: 800px;
+}
+
+#board .sub-menu{
+    width: 50px;
+
+}
+
+#board .sub-menu label{
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 10px;
+    text-align: left;
+
+}
+#board .sub-detail{
+    width: 600px;
+    float: right;
+}
+
+
+#board .sub-detail label{
+    display: block;
+    padding-top: 10px;
+    margin-right: 10px;
+    text-align: left;
+    
+    
+
+}
+
+#board .sub-paragraph p{
+
+    float: left;
+}
+
+
+/* write.html */
+#contents2 #board .form-text{
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+ }
+
+ #contents2 #board #sub-title{
+    padding: 2px 0 2px 0;
+    width: 711px;
+    margin-bottom: 10px;
+    border: 2px solid #a5a5a5;
+    border-radius: 5px;
+ }
+
+
+#contents2 #board textarea{
+    width: 798px;
+    height: 398px;
+    border: 2px solid #a5a5a5;
+    border-radius: 5px;
+}
+#contents2 .sub-button{
+    float: right;
+    margin-top: 10px;
+}
+
+#contents2 .sub-button button{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #a6a6a6;
+    background-color: #e5e5e5;
+    text-align: center;
 }

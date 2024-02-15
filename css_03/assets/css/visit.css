@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#contents2 #board .visitbook{
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+    border-collapse: collapse;
+}
+
+#contents2 #board .past-visit1{
+    border: 1px solid #a6a6a6;
+}
+
+#contents2 #board .past-visit2{
+    border: 1px solid #a6a6a6;
+}

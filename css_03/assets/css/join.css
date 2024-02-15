@@ -1,0 +1,141 @@
+@charset "UTF-8";
+#contents2 #board
+
+.join-group{
+    width: 510px;
+    height: 340px;
+    border: 3px solid #e5e5e5;
+    margin: 20px 149px 10px 149px;
+}
+
+.join-group2{
+    width: 510px;
+    height: 220px;
+    border: 3px solid #e5e5e5;
+    margin: 20px 149px 10px 149px;
+}
+
+
+#contents2 #board .join-group .join-box{
+    margin: 10px 0 0 80px;
+}
+
+#contents2 #board .join-group2 .join-box{
+    margin: 10px 0 0 80px;
+}
+
+#contents2 #board .join-group .join-box2{
+    margin: 20px 0 0 80px;
+}
+
+#contents2 #board .join-group2 .join-box{
+    margin: 20px 0 0 80px;
+}
+
+#contents2 #board .join-group .join-box:nth-child(1){
+    margin-top: 30px;
+}
+
+#contents2 #board .join-group .join-box2:nth-child(1){
+    margin-top: 50px;
+}
+
+#contents2 #board .join-group2 .join-box:nth-child(1){
+    margin-top: 30px;
+}
+
+#contents2 #board .join-group .join-box:nth-child(5){
+    margin-bottom: 20px;
+}
+
+#contents2 #board .join-group .join-text{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#contents2 #board .join-group2 .join-text{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#contents2 #board .join-group .join-text:nth-child(4){
+    margin-right: 10px;
+}
+
+#contents2 #board .join-group #join-id{
+    width: 140px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contents2 #board .join-group2 #join-id{
+    width: 140px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contents2 #board .join-group .join-box2 span{
+    font-weight: bold;
+}
+
+#contents2 #board .join-group #join-pw{
+    width: 140px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contents2 #board .join-group2 #join-pw{
+    width: 140px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contents2 #board .join-group #join-name{
+    width: 140px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contents2 #board .join-group input[type="radio"]{
+    margin-right: 20px;
+}
+#contents2 #board .join-group #radio-man{
+    margin-left: 10px;
+}
+
+#contents2 #board .join-group #radio-woman{
+    margin-right: 80px;
+}
+
+
+#contents2 #board .join-group input[type="checkbox"]{
+    margin-left: 10px;
+}
+
+#contents2 #board .join-group .btn-join{
+    width: 100px;
+    padding: 15px 20px 15px 20px;
+    margin: 20px 0 0 190px;
+    text-align: center;
+    line-height: 40%;
+}
+
+#contents2 #board .join-group .btn-edit{
+    width: 100px;
+    padding: 10px 5px 10px 5px;
+    margin: 40px 0 0 190px;
+    text-align: center;
+    line-height: 40%;
+}
+
+#contents2 #board .join-group2 .btn-login{
+    width: 100px;
+    padding: 10px 5px 10px 5px;
+    margin: 20px 0 0 190px;
+    text-align: center;
+    line-height: 50%;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.img-box{
+    display: inline-block;
+    border: 2px solid #e6e6e6;
+    padding: 0 5px 0 3px;
+    margin-bottom: 10px;
+}
+
+.img-box p{
+    font-weight: bold;
+    padding: 5px;
+}
+
+.upload-area{
+    margin: 10px;
+}
+
+#contents2 #board #upload-area #upload{
+    width: 110px;
+    display: block;
+    float: right;
+}
+
+.gal-img{
+    width: 185px;
+}
