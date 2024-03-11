@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>자바스크립트</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>자바스크립트</h1>
+        <h2>소제목</h2>
+    </body>
+
+<script>
+    let shapeList = [];
+    let shapeVo1 = {
+        name: "삼각형",
+        width:5,
+        height: 10,
+        area : function(width, height){
+            width*height*0.5
+        }
+    }; 
+    let shapeVo2 = {
+        name: "사각형",
+        width:5,
+        height : 5,
+        area : function(width, height){
+            width*height
+        }
+    };
+    let shapeVo3 = {
+        name: "원",
+        radius :5,
+        area : function(radius){
+            radius*radius*3.14
+        }
+    };
+
+    for(let i=1; i<=shapeList.length; i++){
+        console.log(shapeVo[i].name + "의 넓이는 = "); shapeVo[i].area()
+    };
+
+
+</script>
+</html>

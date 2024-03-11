@@ -23,5 +23,17 @@
     console.log(guestBookVo.content);
     guestBookVo.showInfo();
 
+    ////////////////////////////////////////////
+    ///객체정의 - 생성 이후에 초기화 (값을 나중에 넣어야 할 때)
+
+    let guestVo = {};
+    guestVo.name = "이효리";
+    guestVo.pw = "1234";
+    guestVo.content = "본문입니다.";
+    guestVo.showInfo = function(){console.log(this.name+", "+this.pw+", "+this.content)};
+    console.log(guestVo);
+    guestVo.showInfo();
+
+
 </script>
 </html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<!--아이디-->
+	<ul>
+		<li id="first"> 텍스트1 텍스트1 텍스트1 텍스트1 텍스트1 </li>
+		<li id="second"> 텍스트2 텍스트2 텍스트2 텍스트2 텍스트2 </li>
+		<li id="third"> 텍스트3 텍스트3 텍스트3 텍스트3 텍스트3 </li>
+		<li id="fourth"> 텍스트4 텍스트4 텍스트4 텍스트4 텍스트4 </li>
+		<li id="first"> 텍스트1-1 텍스트1-1 텍스트1-1 텍스트1-1 텍스트1-1 </li>
+	</ul>
+
+
+</body>
+
+<script>
+    //돔트리 생성이 완료되었을때
+document.addEventListener("DOMContentLoaded", function(){
+    console.log("DOM tree 완료");
+
+    //id=second
+    let seTag = document.getELementById("second");
+    console.log(seTag);
+    seTag,sytyle.color="ff0000";
+    //id=third
+    let thTag = document.getELementById("second");
+    console.log(thTag);
+    seTag,sytyle.color="0000ff";
+    //id=founth
+    let foTag = document.getELementById("second");
+    console.log(seTag);
+    seTag,sytyle.color="ffff00";
+    //id=secon=first
+    let seTag = document.getELementById("second");
+    console.log(seTag);
+    seTag,sytyle.color="00ff00";
+
+""
+});
+
+    //페인팅까지 끝났을 떄
+window.addEventListener("load", function(){
+    console.log("페인팅까지 완료");
+});
+
+
+</script>
+
+</html>
