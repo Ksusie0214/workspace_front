@@ -1,15 +1,85 @@
 @charset "UTF-8";
 
 #contents2 #board .visitbook{
-    border-top: 2px solid #d9d9d9;
-    border-bottom: 2px solid #d9d9d9;
+    border: 3px solid #e5e5e5;
     border-collapse: collapse;
+    width: 820px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#contents2 #board .visitbook .visit-name{
+    display: inline-block;
+    float: left;
+    border-right: 3px solid #e5e5e5;
+    border-bottom:3px solid #e5e5e5;
+    width: 64px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+}
+
+#contents2 #board .visitbook .visit-pw{
+    display: inline-block;
+    float: left;
+    border-right: 3px solid #e5e5e5;
+    border-bottom:3px solid #e5e5e5;
+    width: 64px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+}
+
+
+
+#contents2 #board .visitbook .visit-input{
+    display: inline-block;
+    width: 340px;
+    height: 34px;
+    float: left;
+    border-right: 3px solid #e5e5e5;
+    border-bottom:3px solid #e5e5e5;
+}
+
+#contents2 #board .visitbook .visit-input input{
+    width: 325px;
+    height: 30px;
+    margin: 0 5px 0 5px;
+}
+
+#contents2 #board .visitbook .visit-btn{
+    margin: 5px 5px 5px 370px;
+}
+
+#contents2 #board .visitbook .visit-btn button{
+    width: 100px;
+    height: 30px;
+    padding: 5px 0 5px 0;
 }
 
 #contents2 #board .past-visit1{
-    border: 1px solid #a6a6a6;
+    border: 3px solid #e5e5e5;
+    margin-bottom: 10px;
+    width: 820px;
+    border-radius: 5px;
 }
 
 #contents2 #board .past-visit2{
-    border: 1px solid #a6a6a6;
+    border: 3px solid #e5e5e5;
+    margin-bottom: 10px;
+    width: 820px;
+    border-radius: 5px;
+}
+
+#contents2 #board .visitbook .visit-text{
+    border-top: 3px solid #e5e5e5;
+    border-bottom: 3px solid #e5e5e5;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+
+#contents2 #board .visitbook .visit-text textarea{
+    width: 805px;
+    height: 150px;
+    margin: 5px 0 5px 0;
 }
