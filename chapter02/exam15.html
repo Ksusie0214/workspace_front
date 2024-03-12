@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="" rel="stylesheet">
+
+    <style>
+     
+    </style>
+
+</head>
+
+<body>
+	
+	<div>
+        <ul>
+            <li id="firstList">첫번째 아이템 입니다.</li>
+            <li>두번째 아이템 입니다.</li>
+            <li>세번째 아이템 입니다.</li>
+            <li>네번째 아이템 입니다.</li>
+            <li id="lastList">다섯번째 아이템 입니다.</li>
+            <button id="btn_front">앞에추가</button>
+            <button id="btn_back">뒤에추가</button>
+        </ul>
+    </div>
+
+
+</body>
+
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+    let btnFront = document.querySelector("#btn_front");
+    console.log(btnFront);
+    btnFront.addEventListener("click", function(){
+        console.log("클릭");
+        //앞에 추가 버튼을 클릭할 때
+        let firstList = document.querySelector("#firstList");
+        firstList.insertAdjacentHTML("beforebegin","<li>앞에 추가된 아이템입니다.</li>");
+    })
+        
+    let btnBack = document.querySelector("#btn_back");
+    console.log(btnBack);
+    btnBack.addEventListener("click", function(){
+        console.log("클릭");
+        //뒤에 추가 버튼을 클릭할 때
+        let lastList = document.querySelector("#lastList");
+        lastList.insertAdjacentHTML("afterend","<li>뒤에 추가된 아이템입니다.</li>");
+    })  
+})
+
+</script>
+
+</html>

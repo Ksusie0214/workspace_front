@@ -23,7 +23,32 @@
 </body>
 
 <script>
+document.addEventListener("DOMContentLoaded", function(){
+
+    let btn = document.querySelector("#btnPlus");
+    btn.addEventListener("click", function(){
+        console.log("클릭");
+
+        let left = document.querySelector("#left");
+
+        let right = document.querySelector("#right");
+        
+        let display = document.querySelector("#display");
+        display.textContent = parseInt(left.value)+parseInt(right.value);
+
+        left.value ="";
+        right.value ="";
+    });
+
+
+});
+
 
 </script>
 
 </html>
+
+//
+수빈언니
+사룽해
+♡

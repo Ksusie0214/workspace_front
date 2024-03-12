@@ -53,27 +53,32 @@
 </body>
 
 <script>
-	let phoneList = [];
-	let phoneVo1 = {
-		name : "정우성",
-		hp : "010-1111-1111",
-		company: "02-1111-1111"
-	};
-	let phoneVo2 = {
-		name : "이효리",
-		hp : "010-2222-2222",
-		company: "02-2222-2222"
-	};
-	let phoneVo3 = {
-		name : "박명수",
-		hp : "010-3333-3333",
-		company: "02-3333-3333"
-	};
+document.addEventListener("DOMContentLoaded", function(){
 
-	for(let i=0; i<phoneList.length; i++){
-        console.log(phoneList[i]);
-    };
-	 
+	let trs = document.querySelectorAll("tbody>tr");
+	console.log(trs); //tr 3개 가져오기
+
+	let personList = [];
+	
+
+	for(let i=0; i<trs.length; i++){
+		let name = trs[i].children[0].textContent
+		let hp = trs[i].children[1].textContent
+		let company = trs[i].children[2].textContent
+
+		let personVo = {
+			name: name,
+			hp: hp,
+			company: company
+		};
+		personList.push(personVo);
+	}
+
+	console.log(personList); //전체 출력
+	console.log(personList[1].hp);//특정정보 출력
+
+	
+})
 
 </script>
 

@@ -15,11 +15,13 @@
     <div>
 		<table border="1" width="540px">
 			<tr>
-				<td>이름</td><td><input type="text" name="name"></td>
-				<td>비밀번호</td><td><input type="password" name="pw"></td>
+				<td>이름</td>
+				<td><input type="text" name="name" id="name" value=""></td>
+				<td>비밀번호</td>
+				<td><input type="password" name="pw" id="pw" value=""></td>
 			</tr>
 			<tr>
-				<td colspan="4"><textarea cols="72" rows="5" name="content"></textarea></td>
+				<td colspan="4"><textarea cols="72" rows="5" name="content" id="content" value=""></textarea></td>
 			</tr>
 			<tr>
 				<td colspan="4"><button id="btnWrite" type="button">등록</button></td>
@@ -31,7 +33,34 @@
 </body>
 
 <script>
+document.addEventListener("DOMContentLoaded", function(){
+	let personList = [];
+	let btn = document.querySelector("#btnWrite");
+	console.log(btn);
+	btn.addEventListener("click", function(){
+		let trName = document.querySelector("#name");
+		let trPw = document.querySelector("#pw")
+		let trContent = document.querySelector("#content");
+	
+		let name = trName.value
+		let pw = trPw.value
+		let content = trContent.value
 
+		let personVo ={
+		name: name,
+		pw : pw,
+		content : content
+		};
+		personList.push(personVo);
+		console.log(personList);
+
+		trName.value="";
+		trPw.value="";
+		trContent.value="";
+	})
+	
+	
+})
 
 
 
