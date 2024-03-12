@@ -60,7 +60,32 @@
 </body>
 
 <script>
+document.addEventListener("DOMContentLoaded", function(){
+    let guestList = [];
 
+    let guest = document.querySelectorAll("table");
+    console.log(guest);
+
+    let btn = document.querySelector("#btnGetDate");
+    console.log(btn);
+
+    btn.addEventListener("click", function(){
+        for(let i=0; i<guest.length; i++){
+            let no = guest[i].children[0].children[0].children[0].textContent;
+            let name = guest[i].children[0].children[0].children[1].textContent;
+            let date = guest[i].children[0].children[0].children[2].textContent;
+            let content = guest[i].children[0].children[1].children[0].textContent;
+
+            let guestVo ={
+                no : no,
+                name : name,
+                date: date,
+                content : content
+            };
+            guestList.push(guestVo);
+        } console.log(guestList);
+    })
+})
 
 </script>
 
